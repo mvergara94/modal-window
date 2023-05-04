@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Janela Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Janela modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <!-- Botão de fechar a janela -->
+        <h2>Informe seu nome</h2>
+        <form id="myForm">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
+
+    <!-- Script para controlar a janela modal -->
+    <script src="main.js"></script>
+  </body>
+</html>
