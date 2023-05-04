@@ -1,5 +1,12 @@
-// Obtém a janela modal e o botão para abri-la
+// Obtém a janela modal  para abri-la
 let modal = document.getElementById('myModal');
+// Obtém o botão para abrir a janela
+let openModalBtn = document.getElementById('openModalBtn');
+
+// Quando o usuário clicar no botão, abre a janela modal
+openModalBtn.onclick = function () {
+  modal.style.display = 'block';
+};
 
 // Obtém o botão para fechar a janela
 let closeBtn = document.getElementsByClassName('close')[0];
